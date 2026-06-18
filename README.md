@@ -1,116 +1,100 @@
-# Philippines 2026 Digital Payments & E-Commerce Dashboard
+# Philippine Digital Payments and Consumer Behavior Analytics
 
-Beginner-friendly data analytics portfolio project focused on digital payments, e-commerce, and consumer behavior in the Philippines in 2026.
+A data analytics project that examines digital payment growth, cash-light adoption, consumer spending behavior, and consumer confidence in the Philippines using public 2023–2026 data.
 
-![Project Status](https://img.shields.io/badge/status-in%20progress-blue)
-![Tools](https://img.shields.io/badge/tools-Excel%20%7C%20Power%20BI%20%7C%20GitHub-green)
-![Region](https://img.shields.io/badge/focus-Philippines-red)
+## Problem Statement
 
-## Overview
+Digital payments in the Philippines are growing quickly, but many consumers remain careful with spending. This project studies that gap to show how payment adoption, spending behavior, and confidence interact.
 
-This project analyzes how Filipinos pay and shop in 2026 using publicly available data from Philippine and international sources. The main goal is to build a clean, beginner-friendly dashboard in Excel and Power BI that turns current economic and consumer trends into clear business insights.
+## Objectives
 
-This project is part of my portfolio as an aspiring **Data Analyst**.
+1. Measure digital payment growth in the Philippines.
+2. Assess progress toward a cash-light economy.
+3. Analyze how Filipinos spend and pay in 2026.
+4. Examine how consumer confidence affects behavior.
+5. Identify opportunities and pain points for stakeholders.
 
-## Project Objectives
+## Scope
 
-- Analyze the growth of digital payments in the Philippines
-- Explore online shopping and consumer payment behavior
-- Connect payment trends with broader economic conditions
-- Present findings through an Excel dataset and Power BI dashboard
-- Showcase a real-world, job-ready portfolio project
+The project covers:
+- InstaPay and PESONet transaction trends
+- Digital share of retail transactions
+- Cash versus e-wallet usage at point of sale
+- Online spending behavior and top categories
+- Consumer confidence and spending patterns
 
-## Key Questions
+## Core Questions
 
-- How fast are digital payments growing in the Philippines?
-- How close is the country to becoming more cashless?
-- How are Filipinos spending online in 2026?
-- What do current consumer trends say about trust, value, and convenience?
-- What insights can businesses, banks, and fintech companies learn from these trends?
+| Question | Insight |
+|---|---|
+| How fast are digital payments growing? | Tracks value and volume growth over time. |
+| How close is the Philippines to cash-light adoption? | Compares current digital share with national targets. |
+| How are Filipinos spending and paying in 2026? | Shows spending priorities and payment preferences. |
+| How is consumer confidence shaping behavior? | Connects sentiment with cautious spending. |
+| What opportunities and pain points exist? | Translates findings into actionable insights. |
 
-## Tools and Skills
+## Method
 
-- **Excel** — manual data entry, cleaning, structuring, formatting
-- **Power BI** — dashboard design, charts, KPI cards, data storytelling
-- **GitHub** — documentation and version control
-- **Markdown** — project documentation
+1. Collect public data from BSP and reputable industry reports.
+2. Store and clean the data in Excel.
+3. Import the dataset into Power BI.
+4. Build a simple model with shared year-based fields.
+5. Create visuals that answer the five core questions.
 
-## Dataset Structure
+## Dashboard Pages
 
-The project uses a manually curated beginner-friendly dataset built from verified public sources.
+### 1. Payment Growth
+- KPI cards for total payment value and volume
+- Line chart for multi-year growth
+- Short insight on adoption trend
 
-### Sheets
+### 2. Cash-Light Progress
+- Stacked bar or gauge for digital share
+- Comparison of digital and cash usage
+- Short insight on remaining gaps
 
-- `payments_trend`
-- `consumer_behavior`
-- `macro_context`
+### 3. Consumer Behavior
+- Category chart for online spending
+- Payment method comparison
+- Short insight on essentials-first behavior
+
+### 4. Consumer Confidence
+- Trend chart for confidence changes
+- Notes on cautious spending behavior
+
+### 5. Implications
+- Key takeaways for consumers, merchants, and payment providers
+- Practical pain points and opportunity areas
+
+## Deliverables
+
+- `README.md`
+- Clean Excel dataset
+- Power BI dashboard file
+- Exported dashboard report
+- Supporting project documentation
 
 ## Repository Structure
 
 ```text
-ph-digital-payments-ecommerce-2026-dashboard/
-│
+ph-digital-payments-analytics/
 ├── README.md
 ├── data/
-│   └── ph_digital_payments_dashboard_dataset.xlsx
-├── dashboard/
-│   └── ph_digital_payments_dashboard.pbix
-├── images/
-│   └── dashboard-preview.png
-└── docs/
-    └── project-notes.md
+├── analysis/
+├── docs/
+└── export/
 ```
 
-## Workflow
+## Tools
 
-1. Define the business questions
-2. Collect verified 2026-related data
-3. Build and clean the Excel dataset
-4. Create the Power BI dashboard
-5. Write insights and recommendations
-6. Publish the final portfolio project on GitHub
+- Power BI Desktop
+- Excel
+- Markdown
 
-## Data Sources
+## Next Steps
 
-Planned data sources include:
-
-- Bangko Sentral ng Pilipinas (BSP)
-- Asian Development Bank (ADB)
-- Philippine Institute for Development Studies (PIDS)
-- World Bank
-- Reputable Philippine business news and market research reports
-
-## Project Status
-
-Current progress:
-
-- [x] Project idea selected
-- [x] Core business questions defined
-- [x] Repository and README setup
-- [ ] Excel dataset creation
-- [ ] Data cleaning and validation
-- [ ] Power BI dashboard build
-- [ ] Final insights write-up
-- [ ] Upload dashboard screenshots and files
-
-## Why this project matters
-
-Digital payments and e-commerce are major parts of the Philippine economy in 2026. This project highlights current local trends and demonstrates my ability to turn public data into a structured dataset, dashboard, and business story.
-
-## Author
-
-**Kier Christian F. Reyes**  
-Aspiring Data Analyst  
-University of Cabuyao  
-Philippines
-
-## Contact
-
-You can connect with me here once I finalize my portfolio links:
-
-- LinkedIn: *to be added*
-- Email: *to be added*
-
-## Notes
-
-This repository is a learning and portfolio project. As a beginner, I am focusing on building strong fundamentals in Excel, Power BI, data cleaning, and business-focused analysis.
+1. Finalize the dataset.
+2. Clean and structure the tables.
+3. Build the Power BI model.
+4. Create the dashboard pages.
+5. Validate all figures against sources.
